@@ -12,52 +12,41 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!--[if IE]>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <![endif]-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
     <title>Website Estático</title>
-
+    <!--REQUIRED STYLE SHEETS-->
     <!-- BOOTSTRAP CORE STYLE CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" />
-
     <!-- FONTAWESOME STYLE CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" crossorigin="anonymous">
-
     <!-- CUSTOM STYLE CSS -->
     <link href="style.css" rel="stylesheet" />
-
     <!-- GOOGLE FONT -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 </head>
 
 <body>
-    <!-- Header section -->
+    <!--Header section  -->
     <div class="container" id="home">
         <div class="row text-center">
-            <div style="position: absolute; right: 0; top: 10px; margin: 25px;">
-                <img src="logo.png" height="100px" width="100px" alt="UNAHUR">
+            <div style="position: absolute;right: 0; top: 10; margin: 25px;">
+                <img src="logo.png" height="100px" width="100px">
             </div>
-
+        
             <div class="col-md-12">
                 <h1 class="head-main">Laboratorio de SO y Redes</h1>
-
-                <!--
-                  Este bloque mantiene las mismas clases del sitio original.
-                  El contenido se reemplaza dinámicamente con /instance-info.html.
-                -->
-                <div id="instance-info">
-                    <h2 class="head-new-main">Hostname: pendiente</h2>
-                    <h3 class="head-sub-main">IP address: pendiente</h3>
-                </div>
+                <h2 class="head-new-main"> Hostname: labXX </h2>
+                <h3 class="head-sub-main"> IP address: 192.168.170.X </h2>
             </div>
         </div>
     </div>
-    <!-- End Header section -->
+    <!--End Header section  -->
 
     <!-- Navigation -->
     <nav class="navbar-inverse" role="navigation">
@@ -71,28 +60,32 @@
                 </button>
                 <a class="navbar-brand" href="http://campus2023.unahur.edu.ar/"> Campus </a>
             </div>
-
             <!-- Collect the nav links for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="#home"><i class="fas fa-home"></i></a></li>
-                    <li><a href="#about">Acerca de</a></li>
-                    <li><a href="#work-sec">Laboratorios</a></li>
-                    <li><a href="#contact-sec">Contacto</a></li>
-                    <li><a href="#map-sec">Ubicación</a></li>
+                    <li><a href="#home"><i class="fas fa-home"></i></a>
+                    </li>
+                    <li><a href="#about">Acerca de</a>
+                    </li>
+                    <li><a href="#work-sec">Laboratorios</a>
+                    </li>
+                    <li><a href="#contact-sec">Contacto</a>
+                    </li>
+                    <li><a href="#map-sec">Ubicación</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
-    <!-- End Navigation -->
+    <!--End Navigation -->
 
-    <!-- About Section -->
-    <section class="color-white" id="about">
+    <!--About Section-->
+    <section class="color-white " id="about">
         <div class="container">
             <div class="row text-center">
-                <div class="col-md-8 col-md-offset-2">
+                <div class="col-md-8 col-md-offset-2 ">
                     <h2 style="padding-top:50px;">Acerca de</h2>
                     <h4>
                         <strong>
@@ -105,11 +98,11 @@
         </div>
     </section>
 
-    <section class="color-light">
+    <section class=" color-light">
         <div class="container">
             <div class="row text-center">
                 <div class="col-md-12">
-                    <h2>Tecnologias</h2>
+                    <h2> Tecnologias</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
@@ -132,13 +125,13 @@
             </div>
         </div>
     </section>
-    <!-- End About Section -->
+    <!--End About Section-->
 
     <!-- Transformation Section -->
-    <section class="color-white" id="work-sec">
+    <section class="color-white " id="work-sec">
         <div class="container">
             <div class="row text-center">
-                <div class="col-md-8 col-md-offset-2">
+                <div class="col-md-8 col-md-offset-2 ">
                     <h2>Los laboratorios</h2>
                     <h4>
                         <strong>
@@ -153,32 +146,32 @@
                 <div class="col-md-4">
                     <div class="work-div">
                         <i class="fas fa-box-open fa-5x"></i>
-                        <h3>Paquetes</h3>
+                        <h3>Paquetes </h3>
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 ">
                     <div class="work-div">
                         <i class="fas fa-arrows-alt-h fa-5x"></i>
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 ">
                     <div class="work-div">
                         <i class="fas fa-cloud fa-5x"></i>
                         <h3>La Nube</h3>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
-    <!-- End Transformation Section -->
-
+    <!--End Transformation Section -->
     <!-- Contact Section -->
-    <section class="color-light" id="contact-sec">
+    <section class="color-light " id="contact-sec">
         <div class="container">
             <div class="row text-center">
-                <div class="col-md-8 col-md-offset-2">
+                <div class="col-md-8 col-md-offset-2 ">
                     <h2>Información de Contacto</h2>
                     <h4>
                         <strong>
@@ -193,12 +186,12 @@
                 <div class="col-md-5 contact-cls">
                     <h3>Nuestra Dirección</h3>
                     <div>
-                        <span><i class="fa fa-home"></i> Dirección: Tte. M. Origone 101, Villa Tesei </span>
+                        <span><i class="fa fa-home"> </i> Dirección: Tte. M. Origone 101, Villa Tesei </span>
                         <br />
-                        <span><i class="fa fa-phone"></i> Teléfono: +54-11-2066-1958</span>
+                        <span><i class="fa fa-phone"> </i> Teléfono: +54-11-2066-1958</span>
                     </div>
-                </div>
 
+                </div>
                 <div class="col-md-7">
                     <br />
                     <div id="social-icon">
@@ -212,51 +205,30 @@
             </div>
         </div>
     </section>
-    <!-- End Contact Section -->
+    <!--End Contact Section -->
 
-    <!-- Map Section -->
-    <div class="color-light" id="map-sec">
-        <div class="gmap_canvas">
-            <iframe src="https://maps.google.com/maps?q=unahur&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" style="width: 100%; height: 490px;"></iframe>
-        </div>
-    </div>
-    <!-- End Map Section -->
-
-    <!-- Footer Section -->
-    <div class="for-full-back" id="footer">
+    <!--Map Section -->
+    <div class="color-light " id="map-sec"><div class="gmap_canvas"><iframe src="https://maps.google.com/maps?q=unahur&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" style="width: 100%; height: 490px;"></iframe></div></div>
+    
+    <!--
+    <section class="color-light " id="map-sec">
+        <iframe class="cnt" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2999841.293321206!2d-75.80920404999999!3d42.75594204999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew+York!5e0!3m2!1sen!2s!4v1395313088825"></iframe>
+    </section>
+    -->
+    <!--End Map Section -->
+    <!--footer Section -->
+    <div class="for-full-back " id="footer">
         CSS Template from <a href="https://www.free-css.com/free-css-templates/page203/image-less">Free CSS</a>
     </div>
-    <!-- End Footer Section -->
-
-    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME -->
-    <!-- CORE JQUERY -->
+    <!--End footer Section -->
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY  -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-
-    <!-- BOOTSTRAP CORE SCRIPT -->
+    <!-- BOOTSTRAP CORE SCRIPT   -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
     <!-- CUSTOM SCRIPTS -->
     <script src="script.js"></script>
 
-    <!-- Instance info loader -->
-    <script>
-        fetch('/instance-info.html', { cache: 'no-store' })
-            .then(function (response) {
-                if (!response.ok) {
-                    throw new Error('No se pudo cargar instance-info.html');
-                }
-                return response.text();
-            })
-            .then(function (html) {
-                document.getElementById('instance-info').innerHTML = html;
-            })
-            .catch(function (error) {
-                document.getElementById('instance-info').innerHTML =
-                    '<h2 class="head-new-main">Hostname: no disponible</h2>' +
-                    '<h3 class="head-sub-main">IP address: no disponible</h3>';
-                console.error(error);
-            });
-    </script>
 </body>
 
 </html>
